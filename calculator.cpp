@@ -16,4 +16,5 @@ int main() {
     std::cout << "Командний калькулятор запущено!" << std::endl;
   
     return 0;
+    
 }
