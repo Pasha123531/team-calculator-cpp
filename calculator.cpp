@@ -24,3 +24,8 @@ double Calculator::Divide(double a, double b) {
     if (b == 0) return 0; // Базова перевірка
     return a / b;
 }
+
+//Percentage of a number
+double Calculator::Percentage(double total, double percent) {
+    return (total * percent) / 100.0;
+}
